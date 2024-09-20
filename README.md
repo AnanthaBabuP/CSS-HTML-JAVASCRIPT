@@ -36,3 +36,12 @@ PART-2:
         2.let
         3.const
         4.nothing
+PART-3:
+    1.JavaScript Operator
+        1.Arithmatic operator(+,-,/,*,++,--)
+        2.Comparision(Relational) Operator(<,<=,>,>=,==,===,!=,!==)
+        3.Logical Operator(&&.||,!)
+        4.Bitwise Operator(&,|,~,>,<<,>>)
+        5.Assignment operator(=,+=,-=,/=,*=)
+        6.Ternary Operator(<condition>? value1 : Value=2)
+        7.Spacial Operators(Check Program)
