@@ -45,3 +45,31 @@ PART-3:
         5.Assignment operator(=,+=,-=,/=,*=)
         6.Ternary Operator(<condition>? value1 : Value=2)
         7.Spacial Operators(Check Program)
+
+PART-4:
+    1.Control Statement
+        1.if
+        2.if..else
+        3.if...else...if
+        4.switch
+    2.Looping Statement
+        1.while
+        2.do..while
+        3.for
+    3.For Loop Types
+        1.For in Loop(based on index)
+        2.For of Loop(based on element)
+    4.Iterating
+        1.Iterating Over an Object
+
+PART-5:
+    1.Iterating Over an 
+        1.String
+        2.TypedArray(iUnit8Array)
+        3.Map
+        4.Set
+        5.Argument in a function
+    2.ForEach With Arrays
+        1.Passing Argument With Function
+        2.passing Argument With out Function
+
