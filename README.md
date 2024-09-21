@@ -82,3 +82,21 @@ PART-6:
         3.confirm()
     3.Window Object Hierarchy (Map for flow)
     4.Frame Object(frameset with frame)
+
+PART-7: ARRAY
+    1.Javascript Array
+    2.Access Element of Array (arrayName[i] to Access Element)
+    3.Array length(arrayName.length)
+    4.Array Methods
+        1.concat      -> merge to create and Store new Array
+        2.indexOf()   ->  check the index of element 
+        3.find()      -> Find the Element 
+        4.findIndex() -> find the Index of Element
+        5.forEach()   -> Iterate Array list
+        6.push()      ->Push New Last Element
+        7.shift()     -> remove First Element for Array
+        8.pop()       -> Show the last Element of array
+        9.unshift()   -> Add First Element
+        10.sort()     -> Sorting Array Elements
+        11.slice()    -> Create a new Array
+        12.splice()   -> Remove or replace Array Elements
