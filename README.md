@@ -73,3 +73,12 @@ PART-5:
         1.Passing Argument With Function
         2.passing Argument With out Function
 
+PART-6:
+    1.JavaScript Window Objects
+        like alert, setInterval, setTimeout
+    2.Windows Dialog Box
+        1.alert()
+        2.prompt()
+        3.confirm()
+    3.Window Object Hierarchy (Map for flow)
+    4.Frame Object(frameset with frame)
