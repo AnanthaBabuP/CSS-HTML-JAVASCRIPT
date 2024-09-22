@@ -100,3 +100,41 @@ PART-7: ARRAY
         10.sort()     -> Sorting Array Elements
         11.slice()    -> Create a new Array
         12.splice()   -> Remove or replace Array Elements
+
+PART-8: Object
+    1.What is Object
+    2.Types
+        1.pre-defined
+        2.user define
+    3.How to Declare Object
+        1.Using new Keyword
+        2.Using curly braces{}
+    4.Object Properties
+        Accessor
+    5. Accessor type
+        1.Dot notation (objectName.property)
+        2.pracket notation(objectName['property'])
+
+PART-9: 
+    1.This keyword
+    2.Object prototype
+    3.Prototype inheritance
+    4.Instanceof Keyword
+    5.Build-in Objects
+        1.Math Object
+        2.Array Object
+        3.String Object
+        4.Date Object
+    6.Math Object With Methods
+        Math.celi(x) -> Round of value up Interger
+            Math.celi(63.15) = 64
+        Math.floor(x)-> Round of Value Interger With out decimal
+            math.floor(63.15) = 63
+
+PART-10: (Date Object, String Object, Function)
+    1.String Object Methods
+    2.Date Object Methods
+    3.Function
+        1.Pre-defined function
+        2.User-defined Function
+
