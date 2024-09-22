@@ -138,3 +138,92 @@ PART-10: (Date Object, String Object, Function)
         1.Pre-defined function
         2.User-defined Function
 
+PART-11: Sample programs
+    1.Default Parameter (
+        ex.
+        sum(x=3,y=5)=>return (x + y);
+    )
+    2.Default function(
+        sum()=>15;
+    )
+    3.Arrow Function(sample)
+
+
+PART-12: 
+    1.Arrow Function
+    2.Arrow Function Syntax
+    3.Arrow Function Advantage And Disadvantage
+    
+    4.FORM AND INPUTS
+    5.Form Attributes:
+        1.method = (get or post)
+        2.action =(URL for server)
+    6.Type Of Input fields:
+        1.input
+        2.textarea
+        3.select
+    
+    
+    7.Input Tag
+        1.In is Void Tag(No end tag is possible)
+        2.Input tag is used most of the case
+    8.Input Type Attributes;
+        1.text
+        2.password
+        3.hidden
+        4.checkbox
+        5.radio
+        6.button
+        7.submit
+        8.reset
+        9.file
+    9.The value=parameter
+        1.It is used every field
+    10. type=password
+    11. type=checkbox
+    12. type=radio
+         1.Using like yes/no male/female
+         2.Group of radio button name attribute is same Name
+    13. type=file (Using Upload A File)
+    14. type=hidden (is the tag for a hidden field)
+    
+    15. HTML5 Input Tag
+        type=attributes
+            1.For dates and time:
+                1.type=datetime/datetime-local/date/month/time/week
+            2.For Number
+                type=number/range
+            3.For colour
+                type=color
+            4.For special Types of data
+                type=email/tel/url/search
+    
+    14.The <textarea> Tag (It's a rectangle space where several line of Information)
+        1.You can use the row= and cols= parameter to get a particular size
+        2. It Must declare closing Tag
+
+    15.The <Select> and <Option> Tag
+        1.It will be act to drop-down list
+        2.The Option has a value attribute but no name.
+        3. Both are require to closing Tag
+    
+    16.Auto Focus And Tab Index
+        The autofocus = attribute causes the focus.
+        2.Normally it would be used with an <input..> Element.
+        3.When the first page is loaded
+        4.Tab Index=attribute
+            <input ... tabindex=1 ...>
+    
+    17.Advanced Concept
+        Input Patterns: - regular Expression
+            1.<input ... Pattern=[0-9]{5} ...>
+            2.<input ... Pattern=[0-9]{3}-[0-9]{3}-[0-9]{4} ...>
+    
+    18.HTML EVENTS:
+        1. Windows Event Attributes
+        2. Form Event Attributes
+        3. Keyboard Event Attributes
+        4. Mouse Event Attributes
+        5. Clipboard Event Attributes
+        6. Media Event Attributes
+    19. Windows Event Attributes Description
