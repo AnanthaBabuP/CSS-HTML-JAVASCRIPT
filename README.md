@@ -244,3 +244,88 @@ PART-15:
     2. JavaScript Window Object Method:
         open() -> Create New Window
     3. Javascript Window Object Attributes
+
+PART-16:
+    1.Window Object Methods like alert(),open(),close()
+    2. Windows Dialog Box
+        1. alert()
+        2. prompt()
+        3. confirm()
+    3. Frame Object
+        This property represent <iframe> Elements
+        DOM Window Frame is a read only property.
+
+        syntex:
+            window.frames
+        Return Value:Window Object-it's Represant a current Window object.
+
+        properties:
+            1. length-number of iframe Elements
+            2. location-It Changes The location of iframe
+        
+        syntax:
+            1. window.length
+            2. window.frames[index_no].location
+
+PART-17:
+    1. Smaple Program for Window Frame Object Length property Example.
+    2. Smaple Program for Window Frame Object location property Example.
+
+PART-18: Document Object
+    1.Document Object:
+        1.activeElement
+        2.addEventListener()
+        3.baseURI
+        4.body
+        5.characterset
+        6.close()
+        .
+        .
+        .
+        etc..
+    2.Document Object Propertys And methods
+        1. forms
+        2. getElementById()
+        3. getElementByClassName()
+        4. getElementByName()
+        5. getElementByTagName()
+        6. hasFocus()
+        7. head
+        8. images
+        9. implementation
+        10.importNode()
+        11.lastmodified
+        12.links
+        13.normalize()
+    
+    3.Location Object
+        1.The Location Object Contain information about the Currend URL.
+        2.It is a property of the window object
+        3. It is accessed with:
+            window.location or just location
+    
+    4.Location Properties:
+        has
+        host
+        hostname
+        href
+        origin - Return protocol,hostName,hostNumber(port)
+        pathname
+        port
+        protocol
+        search
+
+    5.Location Methods:
+        1.assign()
+        2.reload()
+        3.replace()
+    
+    6.Windows History Object:
+       1.It is a property of Windows Object.
+       2.Contains The URLs User visited  By Users
+    
+    Property/Merthods:
+    1.back()    ->Load the previous URL(Page In the History)
+    2.forward() ->Load Next Url
+    3.go()      -> Goes to the Specified Url
+    4.length()  -> Return to the length of history
