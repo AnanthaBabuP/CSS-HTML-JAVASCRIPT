@@ -238,3 +238,9 @@ PART-13:
 
 PART-14:
     Javascript Basic Form Valitation(Program)
+
+PART-15:
+    1. Javascript Window Object
+    2. JavaScript Window Object Method:
+        open() -> Create New Window
+    3. Javascript Window Object Attributes
