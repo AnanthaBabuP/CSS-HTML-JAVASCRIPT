@@ -343,5 +343,12 @@ PART-22:
 PART-23:
     1.Super Keyword 
     2.Method Overloading
-        
+
+PART-24:
+    1.Hierarchical Inheritance 
+
+PART-25:
+    1.Call Method (Chain Constructor) 
+    2.Use call() to invoke Anonymous function 
+    3.call() to invoke a function and specifying the context for 'this'     
         
