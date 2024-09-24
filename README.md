@@ -329,3 +329,11 @@ PART-18: Document Object
     2.forward() ->Load Next Url
     3.go()      -> Goes to the Specified Url
     4.length()  -> Return to the length of history
+
+PART-19,20,21:
+    1.call() Method
+        1.It is a predefined Method
+        2.It is call Object's method
+    2.Doubt Cleared
+        
+        
