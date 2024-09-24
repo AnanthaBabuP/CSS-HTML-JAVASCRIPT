@@ -369,3 +369,10 @@ PART-26:
         7.ParentNode
         8.Privious/Next Sibling
         9.first/lastChild
+
+
+PART-27:
+    1.DOM Example  - changing style
+    2.DOM Example2 - changing Attributes
+    3.DOM Example3 - Building HTML:Program
+    4.Cookies
