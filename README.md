@@ -350,5 +350,22 @@ PART-24:
 PART-25:
     1.Call Method (Chain Constructor) 
     2.Use call() to invoke Anonymous function 
-    3.call() to invoke a function and specifying the context for 'this'     
-        
+    3.call() to invoke a function and specifying the context for 'this' 
+
+PART-26:
+    1.DOM(Document Object Model)  
+    2.Types 
+        1.Document Node    -> Entire Html Document
+        2.Elements Node    -> Elements(H1-h6,p,div)
+        3.Attributes Node  -> Change the Attributes For example Color change in css
+        4.text node  -> It change the element Text of Value
+    3. DOM Tree Methods:
+        1.getElementbyId()
+        2.getElementByTagName()
+        3.getElementByName()
+        4.getElementByClass()
+        5.querySelector
+        6.querySelectorAll
+        7.ParentNode
+        8.Privious/Next Sibling
+        9.first/lastChild
