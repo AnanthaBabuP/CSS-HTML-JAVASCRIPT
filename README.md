@@ -19,7 +19,7 @@ PART-1:
         2.External JavaScript
 
 PART-2:
-    1.noscript
+    1.noscript Tag
     2.External JavaScript
     3.Advantage and Dis Advantage in JavaScript
     4.Javascript Command
@@ -335,5 +335,13 @@ PART-19,20,21:
         1.It is a predefined Method
         2.It is call Object's method
     2.Doubt Cleared
+
+PART-22:
+    1.JavaScript Class
+    2.JavaScript Class Inheritance  
+
+PART-23:
+    1.Super Keyword 
+    2.Method Overloading
         
         
