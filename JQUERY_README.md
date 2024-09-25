@@ -213,3 +213,49 @@ PART-6:
         $('selector').show(speed,easing,callback);
         $('selector').toggle(speed,easing,callback);
 
+PART-7:
+    1.JQUery Animation1 - Example
+    2.JQuery Event Methods
+        1.form Event
+        2.Keyboard Event
+        3.Mouse Event
+        4.Browser Event
+        5.Document Loading
+        
+        1.Form Event Methods():
+
+            JQuery Event - DOM Event
+            1.blur       - onBlur
+            2.change     - onchange
+            3.focus      - onFocus
+            4.focusin    - onFocusin
+            5.select     - onSelect
+            6.submit     - onSubmit    
+        
+        2.Keyboard Event
+            1.keydown    - onKeydown
+            2.keyUp      - onKeyUp
+            3.keyPress   - onKeyPress
+            3.focusOut   -
+
+        3.Mouse Evnet
+            1. click
+            2. dblclick
+            3. focusout
+            4. hover
+            5. mousedown
+            6. mouseenter
+            7. mouseleave
+            8. mousemove
+            9. mouseout
+            10.mouseover
+            11.mouseup
+            12.toggle
+        4.Browser Event Methods()
+            1.Error
+            2.Resize
+            3.scroll
+        5.Document loading Methods():
+            1.load
+            2.ready
+            3.unload
