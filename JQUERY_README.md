@@ -99,3 +99,117 @@ PART-4:
         $('selector').html('content');  
         $('selector').text('content'); 
         $('selector').val('content');
+    3. Calculator Program
+
+PART-5:
+    1.manipulate HTML Element's Dimenstions
+        1.height()
+        2.innerHeight()
+        3.outerHeight()
+        4.offset()
+        5.position()
+        6.width()
+        7.innerWidth()
+        8.outerWidth()
+    2.Syntex:
+        1.$('selector').height('value');
+        2.$('selector').innerHeight('value');
+        3.$('selector').outerHeight('value');
+        4.$('selector').offset('value');
+        5.$('selector').position('value');
+        6.$('selector').width('value');
+        7.$('selector').innerWidth('value');
+        8.$('selector').outerWidth('value');
+    
+    3.The Following table lists jQuery methods for traversal DOM Element
+        1.children()
+        2.each()
+        3.find()
+        4.first()
+        5.next()
+        6.parent()
+        7.prev()
+        8.siblings()
+    4.Syntex:
+        1.$('selector').each(CallBack Function);
+        2.$('selector').children();
+        3.$('selector').find('selector to find child');
+        4.$('selector').next();
+        5.$('selector').parent();
+        6.$('selector').siblings();
+
+PART-6:
+    1.CSS Manipulation:
+        1.css()
+        2.addClass()
+        3.hasClass()
+        4.removeClass()
+        5.toggleClass()
+       Syntex:
+        1.$('selector').css({
+            'style Property Name':'value',
+        });
+        2.$('selector').addClass('css class Name');
+        3.$('selector').toggleClass('css class Name');
+    
+    3.JQuerey Animation:
+        1.animate()
+        2.queue()
+        3.stop()
+        4.fedeln()
+        5.fadeOut()
+        6.fadeTo()
+        7.fadeToggle()
+        8.hide()
+        9.show()
+        10.toggle()
+        11.slideUp()
+        12.slideDown()
+        13.slideToggle() 
+       
+       Animated syntex:
+        1.$('selector').animate(
+            {'stylepropertyname':'value'},
+            duration,
+            easing,
+            callback
+            ); 
+                (or)
+        $('selector').animate({'propertyName':'value'},{Options})
+    
+    2.Set Animation Duration
+        $('img').animate({
+            height:'100px',
+            width:'100px'
+        },5000);
+
+    3.Apply Easing Method
+        1.linear
+        2.swing
+
+        $('img').animate({
+            height:'100px',
+            width:'100px'
+        },5000,'swing')
+    4.callback Function on Animation Complete
+        $('img').animate({
+            height:'100px',
+            width:'100px'
+        },5000,function(){
+            $('msg').text('Animating Complited...)
+        });
+
+        <img src='sample.jpg'></img>
+        <p id='msg'></p>
+    5. Specify Animation Options
+            You can specify various options as JSON Object.
+            The option include duration,easing.queue,step,progress,complite,start,done and always.
+    
+    6.syntex:
+        1. $('selector').queue(); -show or manipulate the queue
+        2. $('selector').fadeIn(speed,easing,callback); -fading to clear
+        3. $('selector').fadeIn(speed,easing,callback); -clear to fading
+        $('selector').hide(speed,easing,callback);
+        $('selector').show(speed,easing,callback);
+        $('selector').toggle(speed,easing,callback);
+
