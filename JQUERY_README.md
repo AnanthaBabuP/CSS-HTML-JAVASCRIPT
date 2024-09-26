@@ -387,3 +387,12 @@ PART-13:
     1.Page piling
     2.jQuery Form-serialize()
     3.jQuery Form-serializeArray()
+
+PART-14: Refer to images
+    1.jQuery UI - It is categorized 4 groups.
+        1.interacations
+        2.wodgets
+        3.Effects
+        4.Utilities
+    2.Benifits Of jQuery UI
+        
