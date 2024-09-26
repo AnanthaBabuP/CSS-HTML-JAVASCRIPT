@@ -369,4 +369,21 @@ PART-11:
               var newObject = $.extend(firstObject,secondbject);
               console.log(firstObject.foo);
               console.log(newObject.foo);
-        
+
+PART-12:  
+    1.$.now()
+    2.$.isXMLDoc()
+    3.$.globalEval()
+    4.$.dequeue()
+
+    5.jQuery Intraction
+        1.Drag
+        2.Drop
+        3.Resixw
+        4.Select
+        5.Sort
+
+PART-13:
+    1.Page piling
+    2.jQuery Form-serialize()
+    3.jQuery Form-serializeArray()
