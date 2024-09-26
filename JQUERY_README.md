@@ -286,3 +286,87 @@ PART-8:
                 alert('The Mouse Entered!');
             }
     7.Event Bubbling
+
+PART-9:
+    1.JQuery DOM Manipulation:
+        1.jQuery Provide methods such as attr(),html(),text() and vla() which act as getter and setter.
+        2.Standard library Methods:
+            1.Extract the content of an element
+            2.Change the content of an element
+            3.Adding a child element under an existiong element
+            4.Adding a parent element above an existing element
+            5.Adding an element before or after an existing element
+            6.Replace an existiong element with another element
+            7.Wrapping content with-in an element
+        3.Get Form Fields:
+            $('selector').val() // get the value from any form field
+        4. Select Content
+            1.$('selector').html(val,[function]);
+            2.$('selector').text(val,[function]);
+        5. Set Form Fields:
+            $('selector').val('value')
+        6.Replacement Element
+            $('selector').replaceWidth('value');
+            // example H1 change to p tag
+
+PART-10:
+    1.jQuery - Add Elements: 
+        1.Apend() Method: nxt
+            $('Selector').append(content,[content]);
+        2.After() Mehtod: end 
+            $('Selector').after(content,[content]);
+        2.Before() Mehtod:  First
+            $('Selector').after(content,[content]);
+        2.prepend() Mehtod: just before
+            $('Selector').after(content,[content]);
+    
+    2.Traversing Ancestors:
+        The method casn be used to find a PArent,grandparent,great-grandparent
+        Three Methods: Refer To Code
+            1.parent()
+            2.parents()
+            3.parentUntill() 
+
+    3.Trversing Descendants:
+        The method casn be used to find a Child,grandchild,great-grandchild
+        Two Methods: Refer To Code
+            1.children()
+            2.find()
+
+PART-11:
+    1.jQuery Find()
+         $('Selector').find(filter)
+    2. Callback Function
+
+    3.jQuery Utilities:
+        1.$.trim
+        2. $.each() 
+        3.$.inArray()
+        4.$.extend()
+        5.$.proxy() - Return a function
+        6.$.browser()
+        7.$.contains()
+        8.$.data()
+
+        1.$.trim -Remove white Spaceses
+            $.trim('  lots of whitespace  ');
+        2. $.each() - Used to Iterate Arrays and Objects
+            1.$.each(['a','b','c'],function(ind,val){
+                console.log('Element '+ ind + ' Is '+val);
+            });
+
+            2.$.each({a:'a',b:'b',c:'c'},function(key,val){
+                console.log(key + ' : '+val);
+            });
+        3.$.inArray() - Check Array Size. Is Null return -1
+            1.var myArray = [1,2,3,4,5];
+            if($.inArray(4,myArray) != -1){
+                console.log('found it!'); 
+            }
+        4.$.extend() - Change the property of first Object
+            1.var firstObject = {foo:'bar',a:'b'};
+              var secondbject = {foo:'faz'};
+              var newObject = $.extend(firstObject,secondbject);
+              console.log(firstObject.foo);
+              console.log(newObject.foo);
+        
