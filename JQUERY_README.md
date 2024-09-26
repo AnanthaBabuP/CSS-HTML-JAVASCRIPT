@@ -259,3 +259,30 @@ PART-7:
             1.load
             2.ready
             3.unload
+
+PART-8:
+    1.Event Object:
+        1.JQuery Passes an event object to every event handler function.
+            1.target
+            2.pageX
+            3.pageY
+            4.related Target..etc..
+    2.this Keyword in Event Handler
+    3.Hover()
+        1.mouseenter,mouseleave,etc...
+    4.Event Binding Using on()
+        synt:
+            on(type,selector,data,fn);
+    5.Event Binding Multiple Elements:
+        example:
+            $('#myDiv').on('mouseenter mouseleave)',function(){
+                $('myDiv').text('The Mouse entered or left from the div');
+            });
+
+            <div id='myDiv' style='width:100px;height=100px;'></div>
+    6.Specify Named function as Event Handler
+        ex:$('#myDiv').on('mouseenter',namedFunction);
+            var namedFunction = function(){
+                alert('The Mouse Entered!');
+            }
+    7.Event Bubbling
