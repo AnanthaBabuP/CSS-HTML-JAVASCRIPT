@@ -390,9 +390,70 @@ PART-13:
 
 PART-14: Refer to images
     1.jQuery UI - It is categorized 4 groups.
-        1.interacations
-        2.wodgets
+        1.interacations 
+        2.widgets
         3.Effects
         4.Utilities
-    2.Benifits Of jQuery UI
+
+        definition:
         
+        3.Effect:
+            add css
+            remove Css
+            COlor Animation
+            Hide show 
+            toggle
+            toggle Class
+            Effect
+            switchclass
+        4.Utilities:
+            1.tooltip
+            S.Accordion
+
+    2.Benifits Of jQuery UI:
+        1.Cohesive and Consistent APIs.
+        2.Comprehensive Browser Support.
+        3.Open Sourse and Free to Use.
+        4.Good Documentation.
+        5.Powerful Theming Mechanism.
+        6.Stable and Maintenance Friently.
+    
+    3.Explaination:
+        1.interacations:
+            Draggable
+            Dropable
+            Sortable
+            Selectable
+            Resizable
+
+PART-15:
+    1.JQuery widgets:
+            It's a Specialized,platform-independent,cross browser compatable,stable blugins.
+    2.Top jQuery Widgets:
+            1. Accordion widgets 
+                1.Accordion Wedget in jquery UI is a jQuery Based expandable and Collapsible content holdis broken into sections and properly look like tabs.
+
+                Syntax: -2
+                    1. $('Selector',content).accordian(options) Method
+                    2. $('Selector',content).accordian('action',options) Method
+                
+                1.1. $('Selector',content).accordian(options) Method:
+                    Options:
+                        1. Action       - page is first Access.
+                        2. Animate      - How to animate Changing panels(default value is {}
+                        3. Callapsible  - Default value false (+ or - ) menu
+                        4. Disable      - when that is true the accoridian will be disable
+                        5. Event        - This option specify the event used to select on accordion.
+                        6. Header       - Default apttern for identifying the header element.   
+                        7. HeightStyle  - Control the height
+                        8. Icons        - Open and close Icon
+            3. Button  widgets
+            4. Datepicker widgets
+            5. Dialog widgets 
+            6. Menu  widgets
+            7. Progressbar widgets
+            8. Select the Menu widgets
+            9. Slider widgets
+            10.Spinner widgets
+            11.Tab widgets
+            12.Tooltip widgets
