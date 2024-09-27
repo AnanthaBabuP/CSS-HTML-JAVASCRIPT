@@ -447,13 +447,203 @@ PART-15:
                         6. Header       - Default apttern for identifying the header element.   
                         7. HeightStyle  - Control the height
                         8. Icons        - Open and close Icon
-            3. Button  widgets
-            4. Datepicker widgets
-            5. Dialog widgets 
-            6. Menu  widgets
-            7. Progressbar widgets
-            8. Select the Menu widgets
-            9. Slider widgets
-            10.Spinner widgets
-            11.Tab widgets
-            12.Tooltip widgets
+                        
+PART-16:
+    2.autocomplete:
+        It is a machanism frequently used in modern websites to provide a lot of suggesstion for typing time.
+        
+        ex:
+            you type in text box like 'ja' it refer to related this for 'javascript','java' Like this is called as autocomplete
+        syntax:
+                1. $('Selector',content).autocomplete`(options);
+                            (or)
+                   $('Selector',content).autocomplete({options1':'value1','obtion2','value2'...);  
+
+                2. $('Selector',content).autocomplete('action',parameters);
+        Options:
+            1.appendTo
+            2.autoFocus
+            3.delay
+            4.disabled
+            5.minlength
+            6.postion
+            7.source
+
+    3. Button /ButtonSet widgets:
+        jQuery UI provide button() method to transform the html elements(like button, input or anchor )
+
+        syntax:
+            1.$(selector, context).button(options) Method
+            2.$(selector, context).button("action", params) Method
+        Options:
+            1.disabled (default false)
+            2.icons
+            3.label
+            4.text -confirm show text(default Value true)
+
+PART-17:
+    4. Datepicker widgets
+        Datepickers in jQueryUI allow users to enter dates easily and visually. 
+        You can customize the date format and language, restrict the selectable date ranges and add in buttons and other navigation options easily.
+        jQueryUI provides datepicker() method that creates a datepicker and changes the appearance of HTML elements on a page by adding new CSS classes. 
+        Transforms the <input>, <div>, and <span> elements in the wrapped set into a datepicker control.
+
+        Syntax:
+           1. $(selector, context).datepicker (options) Method
+           2. $(selector, context).datepicker ("action", [params]) Method
+    
+        Options:
+            more then 51
+    5. Dialog widgets:
+        Dialog boxes are one of the nice ways of presenting information on an HTML page. A dialog box is a floating window with a title and content area. 
+        This window can be moved, resized, and of course, closed using "X" icon by default.
+        
+        Syntax:
+            1. $(selector, context).datepicker (options) Method
+            2. $(selector, context).datepicker ("action", [params]) Method
+        Options: - 21
+            1	appendTo
+                If this option is set to false, it will prevent the ui-draggable class from being added in the list of selected DOM elements. By default its value is true.
+
+            2	autoOpen
+                This option unless set to false, the dialog box is opened upon creation. When false, the dialog box will be opened upon a call to dialog('open'). By default its value is true.
+
+            3	buttons
+                This option adds buttons in the dialog box. These are listed as objects, and each property is the text on the button. The value is a callback function called when the user clicks the button. By default its value is {}.
+
+            4	closeOnEscape
+                Unless this option set to false, the dialog box will be closed when the user presses the Escape key while the dialog box has focus. By default its value is true.
+
+            5	closeText
+                This option contains text to replace the default of Close for the close button. By default its value is "close".
+
+            6	dialogClass
+                If this option is set to false, it will prevent the ui-draggable class from being added in the list of selected DOM elements. By default its value is "".
+
+            7	draggable
+                Unless you this option to false, dialog box will be draggable by clicking and dragging the title bar. By default its value is true.
+
+            8	height
+                This option sets the height of the dialog box. By default its value is "auto".
+
+            9	hide
+                This option is used to set the effect to be used when the dialog box is closed. By default its value is null.
+
+            11	maxHeight
+                This option sets maximum height, in pixels, to which the dialog box can be resized. By default its value is false.
+
+            12	maxWidth
+                This option sets the maximum width to which the dialog can be resized, in pixels. By default its value is false.
+
+            13	minHeight
+                This option is the minimum height, in pixels, to which the dialog box can be resized. By default its value is 150.
+
+            14	minWidth
+                This option is the minimum width, in pixels, to which the dialog box can be resized. By default its value is 150.
+
+            15	modal
+                If this option is set to true, the dialog will have modal behavior; other items on the page will be disabled, i.e., cannot be interacted with. Modal dialogs create an overlay below the dialog but above other page elements. By default its value is false.
+
+            16	position
+                This option specifies the initial position of the dialog box. Can be one of the predefined positions: center (the default), left, right, top, or bottom. Can also be a 2-element array with the left and top values (in pixels) as [left,top], or text positions such as ['right','top']. By default its value is { my: "center", at: "center", of: window }.
+
+            17	resizable
+                This option unless set to false, the dialog box is resizable in all directions. By default its value is true.
+
+            18	show
+                This option is an effect to be used when the dialog box is being opened. By default its value is null.
+
+            20	title
+                This option specifies the text to appear in the title bar of the dialog box. By default its value is null.
+
+            21	width
+                This option specifies the width of the dialog box in pixels. By default its value is 300.
+                
+    6. Menu  widgets:
+        A menu widget usually consists of a main menu bar with pop up menus.
+        The menu() method can be used in two forms −
+            1. $(selector, context).menu (options) Method
+            2. $(selector, context).menu ("action", params) Method
+        options:
+            1	disabled
+                This option if set to true disables the menu. By default its value is false.
+
+            2	icons
+                This option sets the icons for submenus. By default its value is { submenu: "ui-icon-carat-1-e" }.
+
+            3	menus
+                This option is a selector for the elements that serve as the menu container, including sub-menus. By default its value is ul.
+
+            4	position
+                This option sets the position of submenus in relation to the associated parent menu item. By default its value is { my: "left top", at: "right top" }.
+
+            5	role
+                This option is used to customize the ARIA roles used for the menu and menu items. By default its value is menu.
+    
+    7. Progressbar widget:
+        Progress bars indicate the completion percentage of an operation or process.
+            1.determinate progress bar
+            2.indeterminate progress bar
+    
+        Syntax:
+            1.$(selector, context).progressbar (options) Method
+            2.$(selector, context).progressbar ("action", params) Method
+        Options:
+            1	disabled
+                This option when set to true disables the progress bars. By default its value is false.
+
+            2	max
+                This option sets the maximum value for a progress bar. By default its value is 100.
+
+            3	value
+                This option specifies the initial value of the progress bar. By default its value is 0.
+        
+        Action
+            1	destroy
+                This action removes the progress bar functionality of an element completely. The elements return to their pre-init state. This method does not accept any arguments.
+
+            2	destroy
+                This action removes the progress bar functionality of an element completely. The elements return to their pre-init state. This method does not accept any arguments.
+
+            3	disable
+                This action disables the progress bar functionality of an element. This method does not accept any arguments.
+
+            4	enable
+                This action enables the progress bar functionality. This method does not accept any arguments.
+
+            5	option( optionName )
+                This action retrieves the value currently associated with specified optionName. Where optionName is a String.
+
+            6	option
+                This action gets an object containing key/value pairs representing the current progressbar options hash. This method does not accept any arguments.
+
+            7	option( optionName, value )
+                This action sets the value of the progressbar option associated with the specified optionName.
+
+            8	option( options )
+                This action sets one or more options for the progress bars. The argument options is a map of option-value pairs to be set.
+
+            9	value
+                This action retrieves the current value of options.value, that is, the percentage of fill in the progress bar.
+
+            10	value( value )
+                This action specifies a new value to the percentage filled in the progress bar. The argument value can be a Number or Boolean.
+
+            11	widget
+                This action returns a jQuery object containing the progressbar. This method does not accept any arguments.
+        
+        Event Method
+            1	change(event, ui)
+                This event is triggered whenever the value of progress bar changes. Where event is of type Event, and ui is of type Object.
+
+            2	complete(event, ui)
+                This event is triggered when the progressbar reaches the maximumm value. Where event is of type Event, and ui is of type Object.
+
+            3	create(event, ui)
+                This event is triggered whenever progressbar is created. Where event is of type Event, and ui is of type Object.
+    8. SelectMenu widgets
+    9. Slider widgets
+    10.Spinner widgets
+    11.Tab widgets
+    12.Tooltip widgets
+        -Refer to web site
