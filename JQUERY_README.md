@@ -5,37 +5,37 @@ JQUERY
 
 PART-1:
     1.JQuery Introduction
-    2.JQuery Feauture:
+    2.JQuery Feature:
         1.simple and easy to learn
         2.Light Weight
-        3.css Manipuation
+        3.css Manipulation
         4.Html manipulation
-        5.Dom Traversal and Manipualtion
+        5.Dom Traversal and Manipulation
         6.Cross browser support
         7.Event Handling
         8.JavaScript Library
     3.Add JQUERY
         1.Download From www.jquery.com
-        2.Includ JQuery from a CDN(Content Delevery Network)
-    4. Add jquery on web-page
+        2.Includ jQuery from a CDN(Content Delivery Network)
+    4. Add jQuery on web-page
         <head>
             <script src="jquery-1.11.3.js"></script>
         </head>
     
     5.JQuery CDN
         1. CDN-Content Delivery (or)  Distribution Network
-        2. Here Lot of files are stored,using CDN you can directly use  these files on your website,no need to upload these files on your server. 
+        2. Here Lot of files are stored, using CDN you can directly use  these files on your website, no need to upload these files on your server. 
         3.TypeTo Implement CDN For:
             1. Google CDN: https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
             2. Microsoft CDN: https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js
-            3. CDNJS: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
-            4. jsDelivr: https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
+            3. CDNJS: https://cdnjs.cloudflare.com/ajax/libs/jQuery/3.6.0/jquery.min.js
+            4. jsDeliver: https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
     6. Advantages of using CDN?
         1.It reduce the load from your server.
         2.It saves bandwidth.
         When any User visit on other website it save in browser, as a result next time easy to load.
     7.Editiors for JQuery:
-        (Notepad,++,VSCode,CKEditior,TinyMCE,etc..)
+        (Notepad,++, VSCode, CKEditior,TinyMCE,etc..)
 
     8. JQuery Syntax
         $(selector).action();
@@ -52,7 +52,7 @@ PART-1:
 
             });
     10. Document Ready Event:
-        You can notice in any Jquery example or code jquery methods are inside document ready Event.
+        You can notice in any Jquery example or code jQuery methods are inside document ready Event.
 
         syntax:
             $(document).ready(function(){
@@ -61,12 +61,12 @@ PART-1:
     
     11. Downloading JQuery:
         Versions:
-            1.Product Version - Complite Version
-            2. Development Version  - developer Vaersion
+            1.Product Version - Complete Version
+            2. Development Version  - developer Version
     12.GoogleCDN-Example
 
 PART-2:
-    1. Microsoft CDN-Exapmle
+    1. Microsoft CDN-Example
     2. JQuery CDN-Example
     3. DeveloperCDN - Example
 
@@ -102,7 +102,7 @@ PART-4:
     3. Calculator Program
 
 PART-5:
-    1.manipulate HTML Element's Dimenstions
+    1.manipulate HTML Element's Dimensions
         1.height()
         2.innerHeight()
         3.outerHeight()
@@ -145,7 +145,7 @@ PART-6:
         3.hasClass()
         4.removeClass()
         5.toggleClass()
-       Syntex:
+       Syntax:
         1.$('selector').css({
             'style Property Name':'value',
         });
@@ -167,9 +167,9 @@ PART-6:
         12.slideDown()
         13.slideToggle() 
        
-       Animated syntex:
+       Animated syntax:
         1.$('selector').animate(
-            {'stylepropertyname':'value'},
+            {'style property name ':'value'},
             duration,
             easing,
             callback
@@ -196,7 +196,7 @@ PART-6:
             height:'100px',
             width:'100px'
         },5000,function(){
-            $('msg').text('Animating Complited...)
+            $('msg').text('Animating Completed...)
         });
 
         <img src='sample.jpg'></img>
@@ -293,10 +293,10 @@ PART-9:
         2.Standard library Methods:
             1.Extract the content of an element
             2.Change the content of an element
-            3.Adding a child element under an existiong element
+            3.Adding a child element under an existing element
             4.Adding a parent element above an existing element
             5.Adding an element before or after an existing element
-            6.Replace an existiong element with another element
+            6.Replace an existing element with another element
             7.Wrapping content with-in an element
         3.Get Form Fields:
             $('selector').val() // get the value from any form field
@@ -416,7 +416,7 @@ PART-14: Refer to images
         3.Open Sourse and Free to Use.
         4.Good Documentation.
         5.Powerful Theming Mechanism.
-        6.Stable and Maintenance Friently.
+        6.Stable and Maintenance Friendly.
     
     3.Explaination:
         1.interacations:
@@ -428,14 +428,14 @@ PART-14: Refer to images
 
 PART-15:
     1.JQuery widgets:
-            It's a Specialized,platform-independent,cross browser compatable,stable blugins.
+            It's a Specialized, platform-independent, cross browser compatible, stable plugins.
     2.Top jQuery Widgets:
             1. Accordion widgets 
-                1.Accordion Wedget in jquery UI is a jQuery Based expandable and Collapsible content holdis broken into sections and properly look like tabs.
+                1.Accordion Widget in jQuery UI is a jQuery Based expandable and Collapsible content holds broken into sections and properly look like tabs.
 
                 Syntax: -2
-                    1. $('Selector',content).accordian(options) Method
-                    2. $('Selector',content).accordian('action',options) Method
+                    1. $('Selector',content).accordion(options) Method
+                    2. $('Selector',content).accordion('action',options) Method
                 
                 1.1. $('Selector',content).accordian(options) Method:
                     Options:
@@ -647,3 +647,102 @@ PART-17:
     11.Tab widgets
     12.Tooltip widgets
         -Refer to web site
+
+
+PART-18:
+    1.Ajax Introduction
+        
+        Loading data in background and display it on webpage,without reloading the whole page.
+
+        Example Application Using AJAX
+            (GMail,google map,facebook,youtube)
+            
+        Ajax is a developer dream because you can:
+            Update a web page Without reloading the page
+            Request data from a server - after the page has loaded
+            Recive data from a server - after the page has loaded
+            Send data to a server - in the background
+        
+        What is AJAX?
+            AJAX-Asynchronous Javascript and XML
+            It is not a programming language.
+        
+        Ajax just use a combination of:
+            browser build-in XMLHttpRequest Object(to request data from a web server)
+            Javascript and HTML DOM (to display or use the data)
+            AJAX application might use XML to transfort data, but it is equal comon transition to plain text or Json text.
+        
+        How Ajax Works:
+                Browser:                   \                   \                            Server:
+            An event occcrs          _______\   INTERNET   _____\                      Process HTTP Request
+         create HTTPRequest Object          /                   /  Create a responce and send data back to the browser via internet
+            Sent HTTPRequest               /                   /
+
+
+PART-19:
+    1.Access Across Domains:
+        For security resons, moder browser do not allow access across domains.
+
+        XMLHTTPRequest Methods:
+            1. new XMLHTTPRequest()
+                Create a xmlhttp request
+            2. abort():
+                Cancel the currend request
+            3. getAllResponseHeaders():
+                Return Header information
+            4. getResponseHeader()
+                Returns specific header information
+            5. open(method,url,async,user,psw)
+                Specific the request 
+                method :Get or Post
+                url    :the file location
+                async  :true or false
+                user   : (Optional) User Name
+                psw    : (Optional) Password
+            6. send():
+                Send the request to the server
+            7. Used for GET request
+            8. send(string)
+                send the request to the server ,Used for post request
+            9. setRequestHeader()
+                Adds a lable/value pair to the header to be sent        
+        
+        XMLHTTPRequest Property:
+            1.onreadystatechange:
+                Define a function to be called when the readyState Property change
+            2. readyState:
+                0 - request not initialized
+                1 - Server connection established
+                2 - request Recived
+                3 - Processing Request
+                4 - Request finished and responce is ready
+            3. responseText:
+                Return the response data as a string
+            4. responseXML:
+                Return the response data as a XML
+             5. Status:
+                200 - OK
+                403 = forbidden
+                404 - Not found
+                For complete list go to the http Messages reference
+            6. statusText:
+                Return the status-text(eg.'OK' or 'Not Found')
+        
+        AJAX - sent to a request to a server
+            1.open('GET',filename,true);
+            2.send();
+            3.send(string);
+
+PART-20:
+    1.Server Response:
+        Properties:
+            responseText
+            responceXML
+        methods:
+            getResponseHeader()
+            getAllResponseHeaders()
+    2. How to Show XML File in html Table Using Ajax
+
+PART-21:
+    Ajax Database Example
+                
