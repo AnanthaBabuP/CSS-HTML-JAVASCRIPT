@@ -1,4 +1,4 @@
-# CSS-HTML-JAVASCRIPT
+# CSS-HTML-JAVASCRIPT-JQUERY-Bootsrap
 Day to day Learning
 
 JAVA SCRIPT 
