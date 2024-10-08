@@ -321,7 +321,7 @@ PART-10:
             $('Selector').after(content,[content]);
     
     2.Traversing Ancestors:
-        The method casn be used to find a PArent,grandparent,great-grandparent
+        The method casn be used to find a Parent,grandparent,great-grandparent
         Three Methods: Refer To Code
             1.parent()
             2.parents()
@@ -339,14 +339,14 @@ PART-11:
     2. Callback Function
 
     3.jQuery Utilities:
-        1.$.trim
+        1. $.trim
         2. $.each() 
-        3.$.inArray()
-        4.$.extend()
-        5.$.proxy() - Return a function
-        6.$.browser()
-        7.$.contains()
-        8.$.data()
+        3. $.inArray()
+        4. $.extend()
+        5. $.proxy() - Return a function
+        6. $.browser()
+        7. $.contains()
+        8. $.data()
 
         1.$.trim -Remove white Spaceses
             $.trim('  lots of whitespace  ');
@@ -367,8 +367,8 @@ PART-11:
             1.var firstObject = {foo:'bar',a:'b'};
               var secondbject = {foo:'faz'};
               var newObject = $.extend(firstObject,secondbject);
-              console.log(firstObject.foo);
-              console.log(newObject.foo);
+              console.log(firstObject.foo); // bar
+              console.log(newObject.foo);  //faz
 
 PART-12:  
     1.$.now()
@@ -379,7 +379,7 @@ PART-12:
     5.jQuery Intraction
         1.Drag
         2.Drop
-        3.Resixw
+        3.Resize
         4.Select
         5.Sort
 
@@ -433,7 +433,7 @@ PART-15:
             1. Accordion widgets 
                 1.Accordion Widget in jQuery UI is a jQuery Based expandable and Collapsible content holds broken into sections and properly look like tabs.
 
-                Syntax: -2
+                Syntax: - 2
                     1. $('Selector',content).accordion(options) Method
                     2. $('Selector',content).accordion('action',options) Method
                 
